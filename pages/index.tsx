@@ -1,6 +1,8 @@
 import {Container,Row, Col,Card ,Image} from 'react-bootstrap';
 import { useEffect, useState } from "react";
 import Link from 'next/link';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import Header from '../components/common/Header/index';
 import Footer from '../components/common/Footer/index';

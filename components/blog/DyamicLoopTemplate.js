@@ -26,7 +26,6 @@ const Home = () => {
                                 <h6>Read More</h6>
                             </a>
                         </div>
-
                     ))}
                 </Row>
 

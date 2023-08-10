@@ -23,13 +23,11 @@ const WhoAreWe = () => {
                 <Container className='py-5'>
                     <Row md={12} gap={4}>
                         <Col md={6} sm={12} className='d-flex flex-column justify-content-center px-md-5 lato-regular '>
-                            <h1 className='dosis-regular text-white'>Who Are We</h1>
-
-                            <hr className='border border-white' />
+                            <h1 className=' text-white py-2'>Who Are We</h1>
 
                             <h3 className='fs-2 text-white fw-normal'>Fuzhio promotes Impact Products</h3>
 
-                            <p className='text-white fw-light lh-lg mt-4 fs-5'>Fuzhio strives to improve value chains and make them equitable and sustainable. Our market-led activities unlock business opportunities for vulnerable communities, and enhance socio-economic and environmental value for all stakeholders. Our environmentally-aligned initiatives create mutual synergies for stakeholders, value-added products for farmers and partners, and profits for all involved.</p>
+                            <p className='text-white' style={{ lineHeight: '32px', fontSize: '18px' }}>Fuzhio strives to improve value chains and make them equitable and sustainable. Our market-led activities unlock business opportunities for vulnerable communities, and enhance socio-economic and environmental value for all stakeholders. Our environmentally-aligned initiatives create mutual synergies for stakeholders, value-added products for farmers and partners, and profits for all involved.</p>
 
                             <a href="" className='mt-md-5 text-decoration-none text-white fw-bold fs-6 '>READ MORE</a>
                         </Col>
@@ -61,7 +59,7 @@ const WhoAreWe = () => {
             </Container>
             <Container>
                 <Row className='d-flex d-md-row justify-content-center'>
-                    <Row>
+                    <Row className='d-flex flex-md-row flex-column'>
                         {/* Row 1 */}
                         <Col className='d-flex flex-column flex-row justify-content-between our-dirc p-md-5 laro-regular p-5' style={{}}>
                             <p className='text-white p-0 lh-lg '>The products in the value chains that we enhance ensure positive social and environmental impact</p>

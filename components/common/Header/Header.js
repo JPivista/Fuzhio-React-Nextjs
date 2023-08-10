@@ -1,84 +1,47 @@
-import { useRouter } from 'next/router';
-import React, { useEffect, useState } from 'react'
-import { Nav, NavDropdown, Navbar } from 'react-bootstrap'
+import React from 'react'
+import { Container, Image, Nav, NavDropdown, Navbar } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 
 function Header() {
-
-    const [activeLink, setActiveLink] = useState('home');
-    const router = useRouter();
-
-    useEffect(() => {
-        // Update the active link based on the current path
-        if (router.pathname === '/') {
-            setActiveLink('home');
-        } else if (router.pathname === '/about') {
-            setActiveLink('about');
-        }
-        // else if (/* Add more path checks */) {
-        //     setActiveLink(/* Set active link based on path */);
-        // }
-    }, [router.pathname]);
-
     return (
         <>
-
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Logo</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link active" href="/"
-                                className={activeLink === 'home' ? 'active' : ''}
-                            >Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/about"
-                                className={activeLink === 'about' ? 'active' : ''}
-                            >About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Services</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-
-            {/* <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">My Website</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Services
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="#">Service 1</a>
-                                <a class="dropdown-item" href="#">Service 2</a>
-                                <a class="dropdown-item" href="#">Service 3</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav> */}
+            <Container fluid className='position-absolute'>
+                <Container>
+                    <nav class="navbar navbar-expand-lg bg-transparent">
+                        <a class="navbar-brand" href="/">
+                            <Image src='/fuzhio_logo.png' width={130} />
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNav">
+                            <ul class="navbar-nav ml-auto">
+                                <li class="nav-item active px-md-2">
+                                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item px-md-2">
+                                    <a class="nav-link" href="/about">About</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle px-md-2" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Our Work
+                                    </a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <a class="dropdown-item" href="/agriculture">Agriculture</a>
+                                        <a class="dropdown-item" href="/noble-plastic">Noble Plastic</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item px-md-2">
+                                    <a class="nav-link" href="/fuzhio-covid-response">Fuzhio & Covid Response</a>
+                                </li>
+                                <li class="nav-item px-md-2">
+                                    <a class="nav-link" href="/blog">Blog</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </Container>
+            </Container>
 
 
             {/* <Navbar bg="light" expand="lg">

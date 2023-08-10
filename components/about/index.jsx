@@ -8,7 +8,7 @@ import About from './About'
 import FuzhioTeam from './OurTeam'
 import Partners from './Partners'
 
-
+import BootstrapScript from '../Style-Script'
 
 
 const index = () => {

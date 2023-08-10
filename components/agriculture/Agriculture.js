@@ -32,25 +32,25 @@ const Agriculture = () => {
 
                     <Col md={3} className='text-center'>
                         <Row className='agri-hover-effect p-4'>
-                            <Image src='/assets/agri/cereals.png' width="70%" />
+                            <Image src='/assets/agri/cereals.png' width="100%" />
                         </Row>
                         <h4 className='text-black'>Cereals</h4>
                     </Col>
                     <Col md={3} className='text-center'>
                         <Row className='agri-hover-effect p-4'>
-                            <Image src='/assets/agri/pulses.png' width="70%" />
+                            <Image src='/assets/agri/pulses.png' width="100%" />
                         </Row>
                         <h4 className='text-black'>Pulses</h4>
                     </Col>
                     <Col md={3} className='text-center'>
                         <Row className='agri-hover-effect p-4'>
-                            <Image src='/assets/agri/veg.png' width="70%" />
+                            <Image src='/assets/agri/veg.png' width="100%" />
                         </Row>
                         <h4 className='text-black'>Vegetables</h4>
                     </Col>
                     <Col md={3} className='text-center'>
                         <Row className='agri-hover-effect p-4'>
-                            <Image src='/assets/agri/bio.png' width="70%" />
+                            <Image src='/assets/agri/bio.png' width="100%" />
                         </Row>
                         <h4 className='text-black'>Bio Inputs</h4>
                     </Col>

@@ -53,6 +53,12 @@
   }
 
 
+  @media(max-width:767px) {
+    .banner-font {
+      font-size: 40px !important;
+  }
+  }
+
 /* a {
   color :#b34738 !important;
   text-decoration: none !important;
@@ -65,11 +71,25 @@ a:hover {
 
 /* Header  */
 
-
-.navbar-nav .nav-item .nav-link.active {
-  color: red; /* Change this to your desired active link color */
+a.nav-link {
+  color: #ffd0b3;
 }
-  /* Home Page */
+
+
+/* Home Page */
+
+.home-background-container {
+  background-image: url('/home/home_banner.jpg');
+  width:100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  
+}
+
+
 
 .our-dirc{   
     height : 480px;
