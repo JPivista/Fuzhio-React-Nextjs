@@ -1,0 +1,1 @@
+{"c":["pages/blog","webpack"],"r":["pages/posts/[slug]"],"m":["./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?absolutePagePath=%2FUsers%2FJP%2FDocuments%2Fserver%2Ffuzhio-1%2Fpages%2Fposts%2F%5Bslug%5D.js&page=%2Fposts%2F%5Bslug%5D!","./pages/posts/[slug].js"]}
