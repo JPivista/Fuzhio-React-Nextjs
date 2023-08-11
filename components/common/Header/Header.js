@@ -5,8 +5,8 @@ import Link from 'next/link';
 function Header() {
     return (
         <>
-            <Container fluid className='position-absolute'>
-                <Container>
+            <Container fluid className='position-absolute p-0'>
+                <Container className='p-0'>
                     <nav class="navbar navbar-expand-lg bg-transparent">
                         <Link class="navbar-brand" href="/">
                             <Image src='/fuzhio_logo.png' width={130} />
