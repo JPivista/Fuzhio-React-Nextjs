@@ -20,16 +20,13 @@ const WhoAreWe = () => {
 
             {/* Section 1 */}
             <Container fluid style={{ backgroundColor: '#6e180CAB' }}>
-                <Container className='py-5'>
+                <Container>
                     <Row md={12} gap={4}>
-                        <Col md={6} sm={12} className='d-flex flex-column justify-content-center px-md-5 lato-regular '>
+                        <Col md={6} sm={12} className='d-flex flex-column justify-content-center lato-regular '>
                             <h1 className=' text-white py-2'>Who Are We</h1>
-
                             <h3 className='fs-2 text-white fw-normal'>Fuzhio promotes Impact Products</h3>
-
                             <p className='text-white' style={{ lineHeight: '32px', fontSize: '18px' }}>Fuzhio strives to improve value chains and make them equitable and sustainable. Our market-led activities unlock business opportunities for vulnerable communities, and enhance socio-economic and environmental value for all stakeholders. Our environmentally-aligned initiatives create mutual synergies for stakeholders, value-added products for farmers and partners, and profits for all involved.</p>
-
-                            <a href="" className='mt-md-5 text-decoration-none text-white fw-bold fs-6 '>READ MORE</a>
+                            <a href="" className='mt-md-5 text-decoration-none text-white'>READ MORE</a>
                         </Col>
                         <Col md={6} sm={12} className='mt-5 mt-md-0'>
                             <Image src='/home/Vijayalakshmi_who_are_we.jpg' alt='vl_img' width="100%" />
