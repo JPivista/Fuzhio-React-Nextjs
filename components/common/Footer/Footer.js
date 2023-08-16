@@ -44,7 +44,7 @@ const Footer = () => {
                                 <textarea className='w-100 p-2' type='text' placeholder='Message' rows={5} />
                             </div>
 
-                            <Button type='submit' className='py-3 px-5 mt-2 bg-white text-black rounded-0 poppins-bold '>Submit</Button>
+                            <Button type='submit' className='py-3 px-5 mt-2 bg-white text-dark rounded-0 poppins-bold'>Submit</Button>
                         </Col>
                     </Row>
                 </Container>

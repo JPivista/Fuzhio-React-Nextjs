@@ -17,12 +17,9 @@ const NumberCounter = ({ title, symbol, start, end }) => {
     }, [count, start, end]);
 
     return (
-        <Row className="number-counter p-md-3 d-flex flex-column align-items-center">
+        <Row className="number-counter m-md-1 pt-5 d-flex flex-column align-items-center" style={{ color: '#923022', borderBottom: '2px solid #923022', letterSpacing: '5px' }}>
             <span className="count poppins-bold">{count}<span className="symbol">{symbol}</span></span>
             <h2 className="title pb-4">{title}</h2>
-            <hr className='w-75 d-none d-md-block' />
-            <hr className='w-75 d-block d-md-none border border-2' />
-
         </Row>
     );
 };

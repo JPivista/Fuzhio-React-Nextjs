@@ -153,17 +153,14 @@ button.react-multiple-carousel__arrow.react-multiple-carousel__arrow--left {
 
 
 /* Number Counter Css */
-.number-counter {
-    
-}
 
 .count {
-    font-size: 55px;
+    font-size: 45px;
     color: #6e180c;
 }
 
 h2.title {
-    font-size : 20px;
+    font-size : 18px;
     font-family : 'Poppins Regular';
     color : #00000059;
 }

@@ -5,7 +5,7 @@ import Link from 'next/link';
 function Header() {
     return (
         <>
-            <Container fluid className='position-absolute p-0'>
+            <Container fluid className='position-absolute py-0'>
                 <Container className='p-0'>
                     <nav class="navbar navbar-expand-lg bg-transparent">
                         <Link class="navbar-brand" href="/">
@@ -28,7 +28,7 @@ function Header() {
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                         <Link class="dropdown-item" href="/agriculture">Agriculture</Link>
-                                        <Link class="dropdown-item" href="/about">Agriculture</Link>
+                                        <Link class="dropdown-item" href="/noble-plastic">Noble Plastic</Link>
 
                                     </div>
                                 </li>
